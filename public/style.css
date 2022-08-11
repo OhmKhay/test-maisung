@@ -1,0 +1,48 @@
+body{
+    background: #eee;
+    display: flex;
+    justify-content: center;
+}
+.app{
+    background: #fff;
+    width: 100%;
+    max-width: 429px;
+    padding: 15px;
+    top: 50%;
+    transform: translateY(50%);
+    border-radius: 7px;
+}
+.screen{
+    display: none;
+}
+.screen.active{
+    display: block;
+}
+h2{
+    margin: 5px;
+    color: royalblue;
+    font-size: 29px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 9px 19px;
+    border-radius: 51px;
+    background: royalblue;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+}
+h3{
+    margin: 5px;
+    color: dimgray;
+}
+span{
+    background: #eee;
+    color: dimgray;
+    padding: 9px 23px;
+    margin: 5px;
+}
+input{
+    margin: 15px;
+}

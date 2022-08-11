@@ -1,0 +1,70 @@
+body{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: royalblue;
+}
+nav .left{
+    margin: 1px 9px;
+    display: flex;
+    align-items: center;
+}
+nav .left i{
+    font-size: 23px;
+    color: #fff;
+    margin: 3px 9px;
+    cursor: pointer;
+}
+nav .left a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 9px;
+    user-select: none;
+}
+nav .left a img{
+    height: 42px;
+    width: 99px;
+    margin-right: 5px;
+}
+nav .left a h1{
+    font-size: 29px;
+    color: #fff;
+    margin: 5px;
+}
+nav .right{
+    display: flex;
+    margin: 1px 9px;
+    align-items: center;
+}
+nav .right a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 1px 15px;
+    transition: 0.5s;
+}
+nav .right a:nth-child(1){
+    color: rgb(4, 255, 142);
+}
+nav .right a:nth-child(2){
+    color: rgb(218, 255, 35);
+}
+nav .right a:nth-child(3){
+    color: #000;
+}
+nav .right a:hover p{
+    color: rgb(0, 251, 255);
+}
+nav .right a p{
+    transition: 0.5s;
+    margin: 2px;
+    color: #fff;
+}
